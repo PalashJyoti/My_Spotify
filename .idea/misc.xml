@@ -23,6 +23,8 @@
         <entry key="..\:/AndroidDev/Projects/SpotifyClone/app/src/main/res/layout/activity_sign_up_free.xml" value="0.25" />
         <entry key="..\:/AndroidDev/Projects/SpotifyClone/app/src/main/res/layout/activity_splash_screen.xml" value="0.25833333333333336" />
         <entry key="..\:/AndroidDev/Projects/SpotifyClone/app/src/main/res/layout/country_list.xml" value="0.25833333333333336" />
+        <entry key="..\:/AndroidDev/Projects/SpotifyClone/app/src/main/res/layout/fragment_sign_up_free_email.xml" value="0.24427083333333333" />
+        <entry key="..\:/AndroidDev/Projects/SpotifyClone/app/src/main/res/layout/fragment_sign_up_free_password.xml" value="0.25407608695652173" />
       </map>
     </option>
   </component>

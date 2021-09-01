@@ -7,67 +7,6 @@
     android:background="@color/black"
     tools:context=".SignUpFreeActivity">
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="360dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/custom_edit_text"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:paddingLeft="10dp"
-        android:textColor="@color/white"
-        android:textCursorDrawable="@drawable/cursor"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="140dp"
-        android:text="What's your email?"
-        android:textColor="@color/white"
-        android:textSize="32dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.017"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/TextView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="10dp"
-        android:text="You'll need to confirm this email later."
-        android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
-
-    <Button
-        android:id="@+id/nextBtn"
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/custom_button_grey"
-        android:enabled="false"
-        android:text="Next"
-        android:textAllCaps="false"
-        android:textColor="@color/dull"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TextView5" />
-
     <Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -96,5 +35,17 @@
             android:textSize="20dp"
             android:textStyle="bold" />
     </Toolbar>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.myspotify.SignUpFreeEmailFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
